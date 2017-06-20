@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Piter's RESTful API
+  h2 Time Service
+  p.red Example usage
+  code localhost:3000/August 1,2017
+  br
+  code localhost:3000/1293480392
+  p.red Expected output is JSON:
+  code { "unix": 1293480392, "natural":August 1,2017}
